@@ -1,0 +1,16 @@
+{
+    "name": "simplesamlphp/simplesamlphp-module-theme2factor",
+    "description": "SimpleSAMLphp theme developed for auth2factor module",
+    "type": "simplesamlphp-module",
+    "require": {
+        "simplesamlphp/composer-module-installer": "~1.0",
+        "simplesamlphp/simplesamlphp-module-auth2factor"
+    }
+
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:shoaibali/simplesamlphp-module-auth2factor.git"
+        }
+    ]
+}
